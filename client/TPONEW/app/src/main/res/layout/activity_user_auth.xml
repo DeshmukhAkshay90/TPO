@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Walchand Collage of Engineering ,"
+        android:id="@+id/textView"
+        android:layout_marginTop="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sangli"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="101dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="UserName: "
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="52dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uedunm"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Password"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/uedunm"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="58dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uedpwd"
+        android:inputType="textPassword"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignLeft="@+id/uedunm"
+        android:layout_alignStart="@+id/uedunm"
+        android:layout_alignRight="@+id/uedunm"
+        android:layout_alignEnd="@+id/uedunm" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Log In"
+        android:id="@+id/ubtlg"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/uedpwd"
+        android:layout_toLeftOf="@+id/uedpwd"
+        android:layout_toStartOf="@+id/uedpwd" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Cancel"
+        android:id="@+id/ubtcn"
+        android:layout_alignTop="@+id/ubtlg"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edaddress1"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_alignRight="@+id/ubtcn"
+        android:layout_alignEnd="@+id/ubtcn"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/utv"
+        android:layout_alignLeft="@+id/ubtcn"
+        android:layout_alignStart="@+id/ubtcn"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2" />
+
+    <TwoLineListItem
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/uedunm"
+        android:layout_centerHorizontal="true"></TwoLineListItem>
+
+
+</RelativeLayout>

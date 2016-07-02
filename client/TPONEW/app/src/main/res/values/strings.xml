@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TPONEW</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="title_activity_starting_class">StartingClass</string>
+    <string name="title_activity_start_logo">StartLogo</string>
+</resources>
